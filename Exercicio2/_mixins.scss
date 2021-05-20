@@ -1,0 +1,11 @@
+@mixin caixa($borda, $fundo, $cor) {
+    border: 1px solid $borda;
+    background-color: $fundo;
+    color: $cor;
+
+    &:hover {
+        background-color: $cor;
+        color: $fundo;
+    }
+
+}

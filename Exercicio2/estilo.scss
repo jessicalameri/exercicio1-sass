@@ -1,4 +1,4 @@
-@import 'variaveis', 'reset';
+@import 'variaveis', 'reset', '_mixins', '_extends';
 
 body {
     display: flex;
@@ -52,8 +52,39 @@ h1 {
     .cursivo {
         color: $pink;
     }
+
+
 }
 
 div {
     margin-top: 50px;
+    border-radius: 1%;
+    @extend %padding;
+     .default {
+        @include caixa(#d6d8db, #e2e3e5, #383d41);
+    }
+
+    .warning {
+        @include caixa(#ffeeba, #fff3cd, #856404);
+    }
+
+    .danger {
+        @include caixa(#f5c6cb, #f8d7da, #721c24);
+    }
+
+    .success {
+        @include caixa(#c3e6cb, #d4edda, #155724);
+    }
+
+    .info {
+        @include caixa(#bee5eb, #d1ecf1, #0c5460);
+    }
+
+
+
+
+
+
+
+    
 }

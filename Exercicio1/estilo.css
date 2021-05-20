@@ -1,11 +1,11 @@
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font: Helvetica, sans-serif;
+  font: "Roboto", Arial, Helvetica, sans-serif;
 }
 body nav {
   position: fixed;
@@ -35,7 +35,6 @@ body section {
   height: 100%;
   align-items: flex-end;
   margin-left: 15%;
-  margin-top: 5%;
   border-left: 2px solid #5300ab;
   padding: 20px;
 }
@@ -54,10 +53,10 @@ body section hr {
   margin-bottom: 20px;
 }
 body section h3 {
-  font-size: 25px;
+  font-size: 18px;
 }
 body section p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

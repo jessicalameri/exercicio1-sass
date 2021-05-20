@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+div {
+  padding: 10px;
+}
+
 body {
   display: flex;
   flex-flow: row nowrap;
@@ -57,6 +61,52 @@ h1 .cursivo {
 
 div {
   margin-top: 50px;
+  border-radius: 1%;
+}
+div .default {
+  border: 1px solid #d6d8db;
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+div .default:hover {
+  background-color: #383d41;
+  color: #e2e3e5;
+}
+div .warning {
+  border: 1px solid #ffeeba;
+  background-color: #fff3cd;
+  color: #856404;
+}
+div .warning:hover {
+  background-color: #856404;
+  color: #fff3cd;
+}
+div .danger {
+  border: 1px solid #f5c6cb;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+div .danger:hover {
+  background-color: #721c24;
+  color: #f8d7da;
+}
+div .success {
+  border: 1px solid #c3e6cb;
+  background-color: #d4edda;
+  color: #155724;
+}
+div .success:hover {
+  background-color: #155724;
+  color: #d4edda;
+}
+div .info {
+  border: 1px solid #bee5eb;
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+div .info:hover {
+  background-color: #0c5460;
+  color: #d1ecf1;
 }
 
 /*# sourceMappingURL=estilo.css.map */

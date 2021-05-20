@@ -24,11 +24,12 @@ body {
           width: 100%;
           height: 100%;
           display: block;
-      }
 
-      a:hover {
-        background-color: $menu-color;
-        color: $fundo-color;
+          &:hover {
+            background-color: $menu-color;
+            color: $fundo-color;
+
+          }
       }
 
     }
@@ -38,7 +39,6 @@ body {
     height: 100%;
     align-items: flex-end;
     margin-left:15%;
-    margin-top: 5%;
     border-left: 2px solid $menu-color;
     padding: 20px;
 
@@ -61,11 +61,11 @@ body {
     }
     
     h3 {
-      font-size: 25px;
+      font-size: 18px;
     }
     
     p {
-      font-size: 15px;
+      font-size: 13px;
     }
     
     
