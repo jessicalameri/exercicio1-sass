@@ -1,0 +1,78 @@
+@import '_variaveis.scss';
+@import '_reset.scss';
+
+body {
+    font: $font-family;
+   
+  nav {
+      position: fixed;
+      height: 100%;
+      width: 15%;
+      text-align: center;
+      list-style-type: none;
+      padding-top: 10px;
+      
+
+      li {
+        list-style-type: none;
+        height: 30px;
+        line-height: 30px;
+      }
+      a {
+          color: $menu-color;
+          text-decoration: none;
+          width: 100%;
+          height: 100%;
+          display: block;
+      }
+
+      a:hover {
+        background-color: $menu-color;
+        color: $fundo-color;
+      }
+
+    }
+
+
+  section {
+    height: 100%;
+    align-items: flex-end;
+    margin-left:15%;
+    margin-top: 5%;
+    border-left: 2px solid $menu-color;
+    padding: 20px;
+
+    h1 {
+      font-size: 55px;
+      font-family: 'Dancing Script', cursive;
+      color: $titulo1-color;
+      margin: 0px 0px 0px 0px;
+      
+    }
+    
+    .cursivo {
+      color: $titulo2-color;
+    }
+
+    hr {
+      color: $texto-color;
+      border: 0.2px solid;
+      margin-bottom: 20px;
+    }
+    
+    h3 {
+      font-size: 25px;
+    }
+    
+    p {
+      font-size: 15px;
+    }
+    
+    
+  }
+
+}
+
+
+
+
